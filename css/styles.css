@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
+
 }
 .navbar{
     display: grid;
@@ -779,11 +780,10 @@ footer{
         grid-template-rows: 5rem 12.5rem;
         width: 100%; 
         max-width: 75rem;
-        margin-top: 2.5rem;
+        margin-top: 3.75rem;
     }
     label {
-        display: block; 
-        margin-top: 1.25rem; 
+        display: block;  
         font-size: .4375rem;
     }
     input { 
@@ -793,15 +793,19 @@ footer{
     }
     .section-f1 h2{
         font-size: 1.25rem;
+        margin-top: 3.75rem;
     }
     .section-f2 h3{
         font-size: .625rem;
+        margin-top: 3.75rem;
     }
     .section-f3 h3{
         font-size: .625rem;
+        margin-top: 3.75rem;
     }
     .section-f4 h3{
         font-size: .625rem;
+        margin-top: 3.75rem;
     }
     .link-twitter{
         height: 2.8125rem;
@@ -818,8 +822,8 @@ footer{
         width: 2.8125rem;
     }
     footer{
+        margin-top: 6.25rem;
         height: 4.6875rem;
-        margin-top: 4.375rem;
     }
     footer a img{
         margin-top: 4.0625rem;
@@ -854,6 +858,11 @@ footer{
         width: 100%; 
         max-width: 75rem;
         margin-top: 2.5rem;
+        margin-bottom: 5rem;
+    }
+    .grid-form form {
+        margin-bottom: .0625rem;
+        margin-top: .0625rem;
     }
     label {
         display: block; 
