@@ -1,0 +1,899 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 4.6875rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #5874db;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/29/8f/da/298fdab6747599714130d5670b81ceee.png");
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 80px;
+    height: 9.375rem;
+    width: 100%;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.625rem;
+}
+nav ul li{
+    display: inline;
+}
+header nav ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+section article div button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 161);
+}
+h2{
+    font-family: "Inter", sans-serif;
+    margin-bottom: .625rem;
+}
+h3{
+    font-family: "Inter", sans-serif;
+    font-size: 1.12rem;
+}
+h4{
+    font-family: "Inter", sans-serif;
+}
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 1.570rem;
+}
+.section-2 p {
+    font-size: 1.493rem;
+}
+ul li{
+    font-family: "Inter", sans-serif;
+    list-style: none;
+}
+button{
+    padding: 15px 23px;
+    border-radius: 10px;
+}
+.img-precentacion{
+    height: 12.5rem;
+    width: 21.875rem;
+    border-radius: 20px;
+    ;
+}
+.card{
+    width: 11.875rem;
+    height: 20.625rem;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.726);
+    margin: 1.875rem;
+}
+.card .card-img{
+    width: 100%;
+    height: 70%;
+}
+.card .card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: .625rem;
+}
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.card-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.card-info button {
+    border-radius: 5px;
+}
+.card-info p {
+    margin-left: 10px;
+}
+.card-info button, .card-info p {
+    margin: 5px 0;
+}
+.card-1{
+    width: 11.875rem;
+    height: 21.5625rem;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.726);
+    margin: 1.875rem;
+}
+.card-1 .card-img-1{
+    width: 100%;
+    height: 62%;
+}
+.card-1 .card-img-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+    border-radius: .625rem;
+}
+.card-1 .card-info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 38%;
+}
+.card-info-1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.card-2{
+    width: 11.875rem;
+    height: 21.5625rem;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.726);
+    margin: 1.875rem;
+}
+.card-2 .card-img-2{
+    width: 100%;
+    height: 70%;
+}
+.card-2 .card-img-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: .625rem;
+}
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-2 .card-info-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.card-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.card-info-2 button {
+    border-radius: 5px;
+}
+.card-info-2 p {
+    margin-left: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,16rem);
+    grid-template-rows: 15.625rem;
+    margin-top: 9.375rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-1 section-2 section-2"
+    ;
+    column-gap: 9rem;
+}
+.section-1{
+    grid-area: section-1;
+}
+.section-2{
+    grid-area: section-2;
+}
+.section-2 h2{
+    font-size: 1.875rem;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(4,15.625rem);
+    grid-template-rows: repeat(2,15.625rem);
+    margin-top: 6.25rem;
+    margin-left: 8.75rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-3 section-3 section-4 section-4"
+    "section-3 section-3 section-4 section-4" 
+    ;
+    column-gap: 1.5625rem;
+}
+.section-3{
+    grid-area: section-3;
+}
+.section-3 h2{
+    margin-bottom: 2.5rem;
+    font-size: 2.1875rem;
+}
+.section-3 p{
+    font-size: 1.875rem;
+}
+.section-4{
+    grid-area: section-4;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(3,12.5rem);
+    grid-template-rows: repeat(2,15.625rem);
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-5 section-6 section-6"
+    "section-5 section-6 section-6" 
+    ;
+    column-gap: 12.5rem;
+}
+.section-5{
+    grid-area: section-5;
+}
+.section-6{
+    grid-area: section-6;
+}
+.section-6 h2{
+    margin-bottom: 2.5rem;
+    font-size: 2.1875rem;
+}
+.section-6 p{
+    font-size: 1.875rem;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(4,15.625rem);
+    grid-template-rows: repeat(6,6.25rem);
+    margin-top: 6.25rem;
+    margin-left: 10.625rem;
+    justify-content: center;
+    grid-template-areas: 
+    "section-7 section-7 section-8 section-8"
+    "section-7 section-7 section-8 section-8"  
+    "section-7 section-7 section-8 section-8"  
+    ;
+    column-gap: 1.5625rem;
+}
+.section-7{
+    grid-area: section-7;
+    margin-top: 1.5625rem;
+}
+.section-7 h2{
+    margin-bottom: 3.75rem;
+    font-size: 2.1875rem;
+}
+.section-7 p{
+    font-size: 1.875rem;
+}
+.section-8{
+    grid-area: section-8;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 37.5rem;
+    grid-template-rows: repeat(5,2.8125rem);
+    margin-top: 6.25rem;
+    align-content: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-9"
+    "section-10"
+    "section-11"
+    "section-12"
+    "section-13"
+    ;
+    text-align: center;
+}
+.grid-4 p{
+    font-size: 2rem;
+}
+.grid-4 h2{
+    font-size: 1.875rem;
+}
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(3,12.5rem);
+    grid-template-rows: 5rem 12.5rem;
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-f1 section-f1 section-f1"
+    "section-f2 section-f3 section-f4" 
+    ;
+    gap: 1rem; 
+    width: 100%; 
+    max-width: 120rem;
+}
+.section-f1{
+    grid-area: section-f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-f2{
+    grid-area: section-f2;
+}
+.section-f3{
+    grid-area: section-f3;
+}
+.section-f4{
+    grid-area: section-f4;
+}
+.section-f1 h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 6.25rem;
+}
+form{
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 100%;
+}
+label {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    font-size: 1rem;
+}
+input {
+    width: 100%; 
+    padding: 1rem; 
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.articulo{
+    font-size: 3.75rem;
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-bottom: 3.125rem;
+}
+.ver-mas{
+    display: block;
+    margin: 5rem auto;
+}
+.grid-form-2{
+    display: grid;
+    grid-template-columns: repeat(2,18.75rem);
+    grid-template-rows: 5rem 12.5rem;
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "section-f5 section-f5"
+    "section-f6 section-f7" 
+    ;
+    gap: 3rem; 
+    width: 100%; 
+    max-width: 120rem;
+}
+.section-f5{
+    grid-area: section-f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-f6{
+    grid-area: section-f6;
+}
+.section-f7{
+    grid-area: section-f7;
+}
+.section-f5 h3{
+    font-size: 2.8125rem;
+    margin-bottom: 6rem;
+}
+.section-f6 h4{
+    font-size: 1.875rem;
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+.section-f7 h4{
+    font-size: 1.875rem;
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+.alimentos img{
+    height: 25rem;
+    width: 43.75rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.alimentos-1 img{
+    height: 21.875rem;
+    width:  43.75rem;
+    border-radius: 10px;
+}
+.alimentos{
+    text-align: center;
+    margin-bottom: 6.25rem;
+    margin-top: 9.375rem;
+}
+.alimentos-1{
+    text-align: center;
+    margin-top: 9.375rem;
+    margin-bottom: 6.25rem;
+}
+.adopcion{
+    text-align: center;
+    margin-top: 9.375rem;
+    margin-bottom: 6.25rem;
+}
+.link-twitter{
+    height: 6.25rem;
+    width: 6.25rem;
+
+}
+.link-instagram{
+    height: 6.25rem;
+    width: 6.25rem;
+
+}
+.link-faceboock{
+    height: 6.25rem;
+    width: 6.25rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 8.75rem;
+    background-color: #2f44fd;
+    margin-top: 12.5rem;
+    align-items: center;
+    justify-items: center;
+}
+@media (max-width: 1086px) {
+    .grid {
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+    }
+}
+@media (max-width: 1086px) {
+    .grid {
+        grid-template-columns: repeat(3, 25%);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 10rem;
+    }
+}
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(3,9.375rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 12rem;
+    }
+    .img-precentacion{
+        height: 12.5rem;
+        width: 18.75rem;
+    }
+}
+@media (max-width: 840px) {
+    .grid {
+        grid-template-columns: repeat(3,8.75rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 12rem;
+    }
+    .section-2 h2{
+        font-size: 1.875rem;
+    }
+    .section-2 p{
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 790px) {
+    .grid {
+        grid-template-columns: repeat(3,6.25rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 12rem;
+    }
+    .section-2 h2{
+        font-size: 1.875rem;
+    }
+    .section-2 p{
+        font-size: 1.25rem;
+    }
+    .img-precentacion{
+        height: 9.375rem;
+        width: 15.625rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,150p);
+        grid-template-rows: 5rem 12.5rem;
+        width: 100%; 
+        max-width: 100rem;
+    }
+    .section-f1 h2{
+        font-size: 1.875rem;
+    }
+    label {
+        display: block; 
+        margin-bottom: 0.5rem; 
+        font-size: .875rem;
+    }
+    input {
+        width: 100%; 
+        padding: 1rem; 
+        font-size: .875rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .link-twitter{
+        height: 4.375rem;
+        width: 4.375rem;
+    
+    }
+    .link-instagram{
+        height: 4.375rem;
+        width: 4.375rem;
+    
+    }
+    .link-faceboock{
+        height: 4.375rem;
+        width: 4.375rem;
+    }
+    .navbar li a{
+        font-size: 1.4375rem;
+    }
+}
+
+@media (max-width: 680px) {
+    h1{
+        font-size: 3.75rem;
+        justify-content: center;
+        align-content: center;
+        height: 7rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3,4rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 12rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,9.375rem);
+        grid-template-rows: 5rem 12.5rem;
+        justify-items: center;
+        align-items: center;
+        width: 100%; 
+        max-width: 75rem;
+    }
+    label {
+        display: block; 
+        margin-bottom: 0.5rem; 
+        font-size: .5625rem;
+    }
+    input { 
+        width: 90%; 
+        padding: .625rem; 
+        font-size: .5625rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .section-2 h2{
+        font-size: 1.25rem;
+    }
+    .section-2 p{
+        font-size: .9375rem;
+    }
+    .section-f2 h3{
+        font-size: .9375rem;
+    }
+    .section-f3 h3{
+        font-size: .9375rem;
+    }
+    .section-f4 h3{
+        font-size: .9375rem;
+    }
+    footer{
+        height: 6rem;
+        margin-top: 6.25rem;
+        justify-content: end;
+        align-content: end;
+    }
+    .link-twitter{
+        height: 3.4375rem;
+        width: 3.4375rem;
+    
+    }
+    .link-instagram{
+        height: 3.4375rem;
+        width: 3.4375rem;
+    
+    }
+    .link-faceboock{
+        height: 3.4375rem;
+        width: 3.4375rem;
+    }
+    footer a img{
+        margin-top: 3rem;
+    }
+    /*aqui falta colocar menu hamburguesa-----------------------------------------------------------------------------*/
+}
+@media (max-width: 680px){
+    .grid {
+        margin-top: 3.75rem;
+        grid-template-columns: repeat(2,9.375rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 8rem;
+    }   
+    .section-2 h2{
+        font-size: 1.25rem;
+    }
+    .section-2 p{
+        font-size: .9375rem;
+    }
+    h1{
+        font-size: 3.125rem;
+    }
+}
+@media (max-width: 650px){
+    .grid {
+        margin-top: 3.75rem;
+        grid-template-columns: repeat(2,8rem);
+        grid-template-rows: 15.625rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 8rem;
+    }    
+    .section-2 h2{
+        font-size: 1rem;
+    }
+    .section-2 p{
+        font-size: .8125rem;
+    }
+    .navbar{
+        height: 3.125rem;
+    }
+    .navbar li {
+        margin-bottom: 1.25rem;
+    }
+    .navbar li a{
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 514px) {
+    .grid {
+        margin-top: 3.75rem;
+        grid-template-columns: repeat(2,5rem);
+        grid-template-rows: 12.5rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 10rem;
+    }    
+    .section-2 h2{
+        font-size: .9375rem;
+    }
+    .section-2 p{
+        font-size: .6875rem;
+    }
+    .img-precentacion{
+        height: 7.8125rem;
+        width: 14.0625rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,7.8125rem);
+        grid-template-rows: 5rem 12.5rem;
+        justify-items: center;
+        align-items: center;
+        width: 100%; 
+        max-width: 75rem;
+    }
+    label {
+        display: block; 
+        margin-bottom: 0.5rem; 
+        font-size: .4375rem;
+    }
+    input { 
+        width: 90%; 
+        padding: .625rem; 
+        font-size: .5625rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .section-f1 h2{
+        font-size: 1.5625rem;
+    }
+    .section-f2 h3{
+        font-size: .75rem;
+    }
+    .section-f3 h3{
+        font-size: .75rem;
+    }
+    .section-f4 h3{
+        font-size: .75rem;
+    }
+    .navbar{
+        height: 3.125rem;
+    }
+    .navbar li {
+        margin-bottom: 1.25rem;
+    }
+    .navbar li a{
+        font-size: .9375rem;
+    }
+}
+@media (max-width: 480px) {
+    .grid {
+        margin-top: 3.75rem;
+        grid-template-columns: repeat(2,3.125rem);
+        grid-template-rows: 12.5rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 10rem;
+    }    
+    .section-2 h2{
+        font-size: .75rem;
+    }
+    .section-2 p{
+        font-size: .5625rem;
+    }
+    .img-precentacion{
+        height: 9.375rem;
+        width: 11.25rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,6.25rem);
+        grid-template-rows: 5rem 12.5rem;
+        width: 100%; 
+        max-width: 75rem;
+        margin-top: 2.5rem;
+    }
+    label {
+        display: block; 
+        margin-top: 1.25rem; 
+        font-size: .4375rem;
+    }
+    input { 
+        width: 90%; 
+        padding: .625rem; 
+        font-size: .5625rem;
+    }
+    .section-f1 h2{
+        font-size: 1.25rem;
+    }
+    .section-f2 h3{
+        font-size: .625rem;
+    }
+    .section-f3 h3{
+        font-size: .625rem;
+    }
+    .section-f4 h3{
+        font-size: .625rem;
+    }
+    .link-twitter{
+        height: 2.8125rem;
+        width: 2.8125rem;
+    
+    }
+    .link-instagram{
+        height: 2.8125rem;
+        width: 2.8125rem;
+    
+    }
+    .link-faceboock{
+        height: 2.8125rem;
+        width: 2.8125rem;
+    }
+    footer{
+        height: 4.6875rem;
+        margin-top: 4.375rem;
+    }
+    footer a img{
+        margin-top: 4.0625rem;
+    }
+}
+@media (max-width: 480px) {
+    h1{
+        height: 4.6875rem;
+        font-size: 2.5rem;
+    }
+    .grid {
+        margin-top: 3.75rem;
+        grid-template-columns: repeat(2,1.5625rem);
+        grid-template-rows: 6.25rem;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
+        column-gap: 8rem;
+    }    
+    .section-2 h2{
+        font-size: .6875rem;
+    }
+    .section-2 p{
+        font-size: .4375rem;
+    }
+    .img-precentacion{
+        height: 4.6875rem;
+        width: 7.8125rem;
+    }
+    .grid-form{
+        grid-template-columns: repeat(3,5rem);
+        grid-template-rows: 3.125rem 7.5rem;
+        width: 100%; 
+        max-width: 75rem;
+        margin-top: 2.5rem;
+    }
+    label {
+        display: block; 
+        margin-top: .625rem; 
+        font-size: .4375rem;
+    }
+    input { 
+        width: 100%; 
+        padding: .625rem; 
+        font-size: .5625rem;
+        margin-top: .0625rem;
+    }
+    .navbar{
+        height: 3.125rem;
+    }
+    .section-f2 h3{
+        font-size: .5rem;
+    }
+    .section-f3 h3{
+        font-size: .5rem;
+    }
+    .section-f4 h3{
+        font-size: .5rem;
+    }
+    footer{
+        margin-top: 5rem;
+    }
+}
+/*secciion en trabajo*/
+
+
+
+
+
+
+
+
+
+
+/*font-family: "Poppins", sans-serif;*/
+/*font-family: "Inter", sans-serif;*/
+
+
